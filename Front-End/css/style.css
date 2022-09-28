@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e2dede;
+  display: flex;
+  align-items: center;
+}
+.left-login {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right-login {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-login {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.875rem 2.188rem;
+  background: #0c3550;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
+}
+.card-login > h1 {
+  color: #55959e;
+  font-weight: 800;
+  margin: 0;
+  padding: 1rem;
+}
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0.625rem 0rem;
+}
+
+.textfield > input {
+  width: 100%;
+  border-color: #0c1e2a;
+  border-radius: 3.125rem;
+  padding: 0.938rem;
+  background-color: #1a4379;
+  color: #e3e4ed;
+  font-size: 1rem;
+  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > label {
+  color: #e3e4ed;
+  margin-bottom: 0.625rem;
+}
+
+.textfield > input::placeholder {
+  color: #f3f3f3;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 1rem 0rem;
+  margin: 1.563rem;
+  border-color: #0c1e2a;
+  border-radius: 0.5rem;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.188rem;
+  color: #1a4379;
+  background-color: #55959e;
+  cursor: pointer;
+}
+.btn-login:hover {
+  transition: 1s;
+  background-color: #2fa0af;
+  color: #f3f3f3;
+  cursor: pointer;
+  font-size: 0.99rem;
+}
+.imagem-logo {
+  width: 65%;
+  margin: 3rem;
+}
+a{
+  color: rgba(255, 255, 255, 0.795);
+}
+a:hover{
+  cursor: pointer;
+  transition: 1s;
+  color: white;
+  font-size: 1.2rem;
+}
+.register{
+  padding: 1rem;
+}
+input:focus{
+  border-color: white;
+  background-color: #25589b;
+  transition: 0.6s;
+  cursor: text;
+}
+
+.main-registration{
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 35rem;
+  padding-top: 7rem;
+}
+
+.card-registration{
+  width: 47%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.875rem 2.188rem;
+  background: #0c3550;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
+}
+.main-forgot{
+  width: 50%;
+  height: 50%;
+  padding-top: 15rem;
+  padding-left: 35rem;
+  display: flex;
+  align-items: center;
+}
+.card-forgot{
+    width: 45%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.875rem 2.188rem;
+    background: #0c3550;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
+}
+.card-forgot > h1 {
+  color: #55959e;
+  font-weight: 800;
+  margin: 0;
+  padding: 1rem;
+}
+.card-registration > h1 {
+  color: #55959e;
+  font-weight: 800;
+  margin: 0;
+  padding: 1rem;
+}
