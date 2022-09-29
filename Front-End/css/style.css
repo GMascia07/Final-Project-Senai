@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
+  background-color: #e2dede;
 }
-
 .main-login {
   width: 100vw;
   height: 100vh;
@@ -37,6 +37,60 @@ body {
   border-radius: 1.25rem;
   box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
 }
+.main-registration{
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 35rem;
+  padding-top: 7rem;
+  background-color: #e2dede;
+  }
+.card-registration{
+  width: 47%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.875rem 2.188rem;
+  background: #0c3550;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
+}
+.main-forgot{
+  width: 50%;
+  height: 50%;
+  padding-top: 15rem;
+  padding-left: 35rem;
+  display: flex;
+  align-items: center;
+  background-color: #e2dede;
+}
+.card-forgot{
+    width: 45%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.875rem 2.188rem;
+    background: #0c3550;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
+}
+.card-forgot > h1 {
+  color: #55959e;
+  font-weight: 800;
+  margin: 0;
+  padding: 1rem;
+}
+.card-registration > h1 {
+  color: #55959e;
+  font-weight: 800;
+  margin: 0;
+  padding: 1rem;
+}
 .card-login > h1 {
   color: #55959e;
   font-weight: 800;
@@ -51,7 +105,6 @@ body {
   justify-content: center;
   margin: 0.625rem 0rem;
 }
-
 .textfield > input {
   width: 100%;
   border-color: #0c1e2a;
@@ -64,16 +117,13 @@ body {
   outline: none;
   box-sizing: border-box;
 }
-
 .textfield > label {
   color: #e3e4ed;
   margin-bottom: 0.625rem;
 }
-
 .textfield > input::placeholder {
   color: #f3f3f3;
 }
-
 .btn-login {
   width: 100%;
   padding: 1rem 0rem;
@@ -99,17 +149,26 @@ body {
   width: 65%;
   margin: 3rem;
 }
-a{
+.password{
   color: rgba(255, 255, 255, 0.795);
+  text-decoration: none;
 }
-a:hover{
+.register{
+  color: rgba(255, 255, 255, 0.795);
+  padding: 1rem;
+  text-decoration: none;
+}
+.register:hover{
   cursor: pointer;
   transition: 1s;
   color: white;
   font-size: 1.2rem;
 }
-.register{
-  padding: 1rem;
+.password:hover{
+  cursor: pointer;
+  transition: 1s;
+  color: white;
+  font-size: 1.2rem;
 }
 input:focus{
   border-color: white;
@@ -117,57 +176,32 @@ input:focus{
   transition: 0.6s;
   cursor: text;
 }
-
-.main-registration{
-  width: 50%;
-  height: 70%;
-  display: flex;
-  align-items: center;
-  padding-left: 35rem;
-  padding-top: 7rem;
+.navbar{
+background-size: cover;  
+font-family: "Times New Roman", Times, serif;
+font-size: 1.3rem;
 }
-
-.card-registration{
-  width: 47%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 1.875rem 2.188rem;
-  background: #0c3550;
-  border-radius: 1.25rem;
-  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
-}
-.main-forgot{
-  width: 50%;
-  height: 50%;
-  padding-top: 15rem;
-  padding-left: 35rem;
-  display: flex;
-  align-items: center;
-}
-.card-forgot{
-    width: 45%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1.875rem 2.188rem;
-    background: #0c3550;
-    border-radius: 1.25rem;
-    box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
-}
-.card-forgot > h1 {
-  color: #55959e;
-  font-weight: 800;
-  margin: 0;
-  padding: 1rem;
-}
-.card-registration > h1 {
-  color: #55959e;
-  font-weight: 800;
-  margin: 0;
-  padding: 1rem;
+#homeheader {  
+background-color: black;  
+position: fixed;  
+width: 100%;
+top: 0.313rem;  
+height: 9.5%;  
+display: flex;  
+align-items: center;  
+}  
+#homeheader * {  
+display: inline;
+}  
+#homeheader li {  
+margin: 1.25rem;  
+}  
+#homeheader li a {  
+color: #25589b;  
+text-decoration: none;  
+} 
+#homeheader li a:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  color: #006eff; 
 }
