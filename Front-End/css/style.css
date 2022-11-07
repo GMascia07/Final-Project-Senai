@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  background-color: #e2dede;
+  /* background-color: #e2dede; */
 }
 .main-login {
   width: 100vw;
   height: 100vh;
-  background-color: #e2dede;
+  /* background-color: #e2dede; */
   display: flex;
   align-items: center;
 }
@@ -44,7 +44,7 @@ body {
   align-items: center;
   padding-left: 35rem;
   padding-top: 7rem;
-  background-color: #e2dede;
+  /* background-color: #e2dede; */
   }
 .card-registration{
   width: 47%;
@@ -65,7 +65,7 @@ body {
   padding-left: 35rem;
   display: flex;
   align-items: center;
-  background-color: #e2dede;
+  /* background-color: #e2dede; */
 }
 .card-forgot{
     width: 45%;
@@ -175,6 +175,12 @@ input:focus{
   background-color: #25589b;
   transition: 0.6s;
   cursor: text;
+}
+
+.cadastro{
+  color: #f3f3f3;
+  outline: none;
+
 }
 
 /* ///////////////////////////// */
