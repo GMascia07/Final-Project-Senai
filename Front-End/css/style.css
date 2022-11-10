@@ -6,7 +6,6 @@ body {
 .main-login {
   width: 100vw;
   height: 100vh;
-  /* background-color: #e2dede; */
   display: flex;
   align-items: center;
 }
@@ -44,7 +43,6 @@ body {
   align-items: center;
   padding-left: 35rem;
   padding-top: 7rem;
-  /* background-color: #e2dede; */
   }
 .card-registration{
   width: 47%;
@@ -54,18 +52,16 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 1.875rem 2.188rem;
-  background: #0c3550;
+  background: #fffee4;
   border-radius: 1.25rem;
-  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
 }
 .main-forgot{
   width: 50%;
   height: 50%;
-  padding-top: 15rem;
+  padding-top: 1rem;
   padding-left: 35rem;
   display: flex;
   align-items: center;
-  /* background-color: #e2dede; */
 }
 .card-forgot{
     width: 45%;
@@ -75,18 +71,17 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 1.875rem 2.188rem;
-    background: #0c3550;
+    background: #fffee4;
     border-radius: 1.25rem;
-    box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
 }
 .card-forgot > h1 {
-  color: #55959e;
+  color: #1a1f1e;
   font-weight: 800;
   margin: 0;
   padding: 1rem;
 }
 .card-registration > h1 {
-  color: #55959e;
+  color: #1a1f1e;
   font-weight: 800;
   margin: 0;
   padding: 1rem;
@@ -107,25 +102,24 @@ body {
 }
 .textfield > input {
   width: 100%;
-  border-color: #0c1e2a;
+  border-color: #0c8f8f;
   border-radius: 3.125rem;
   padding: 0.938rem;
-  background-color: #1a4379;
-  color: #e3e4ed;
+  background-color: #fffee4;
+  color: #1a1f1e;
   font-size: 1rem;
-  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
   outline: none;
   box-sizing: border-box;
 }
 .textfield > label {
-  color: #e3e4ed;
+  color: #1a1f1e;
   margin-bottom: 0.625rem;
 }
 .textfield > input::placeholder {
-  color: #f3f3f3;
+  color: black;
 }
 .btn-login {
-  width: 20rem;
+  width: 23.48rem;
   padding: 1rem 0rem;
   margin: 1.563rem;
   border-color: #0c1e2a;
@@ -134,16 +128,13 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.188rem;
-  color: #1a4379;
-  background-color: #55959e;
+  color: #fffee4;
+  background-color: #0c8f8f;
   cursor: pointer;
+  border-radius: 50rem;
 }
 .btn-login:hover {
-  transition: 1s;
-  background-color: #2fa0af;
-  color: #f3f3f3;
   cursor: pointer;
-  font-size: 0.99rem;
 }
 .imagem-logo {
   width: 65%;
@@ -170,19 +161,16 @@ body {
   color: white;
   font-size: 1.2rem;
 }
-input:focus{
-  border-color: white;
-  background-color: #25589b;
-  transition: 0.6s;
-  cursor: text;
-}
-
 .cadastro{
-  color: #f3f3f3;
+  color: #1a1f1e;
   outline: none;
-
 }
-
-/* ///////////////////////////// */
-
-
+.login{
+  color: #1a1f1e;
+  outline: none;
+}
+.forgot{
+  padding: 1rem;
+  color: #1a1f1e;
+  outline: none;
+}
