@@ -3,46 +3,32 @@ body {
   font-family: "Times New Roman", Times, serif;
   /* background-color: #e2dede; */
 }
-.main-login {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-.left-login {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.right-login {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.card-login {
-  width: 40%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 1.875rem 2.188rem;
-  background: #0c3550;
-  border-radius: 1.25rem;
-  box-shadow: 0rem 0.625rem 2.5rem #0c1e2a;
-}
-.main-registration{
+.main-login{
   width: 50%;
   height: 70%;
   display: flex;
   align-items: center;
   padding-left: 35rem;
   padding-top: 7rem;
+  }
+.card-login{
+  width: 47%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.875rem 2.188rem;
+  background: #fffee4;
+  border-radius: 1.25rem;
+}
+.main-registration{
+  width: 50%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  padding-left: 35rem;
+  /* padding-top: 1.5rem; */
   }
 .card-registration{
   width: 47%;
@@ -58,7 +44,7 @@ body {
 .main-forgot{
   width: 50%;
   height: 50%;
-  padding-top: 1rem;
+  padding-top: 8rem;
   padding-left: 35rem;
   display: flex;
   align-items: center;
@@ -82,12 +68,6 @@ body {
 }
 .card-registration > h1 {
   color: #1a1f1e;
-  font-weight: 800;
-  margin: 0;
-  padding: 1rem;
-}
-.card-login > h1 {
-  color: #55959e;
   font-weight: 800;
   margin: 0;
   padding: 1rem;
