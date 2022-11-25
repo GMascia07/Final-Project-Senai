@@ -6,3 +6,23 @@ height: 100%;
 width: 100%;
 padding: 0.5rem;
 }
+.pdf{
+    background-color: #0c8f8f;
+    color: #fffee4;
+}
+.col-12{
+    width: 30%;
+}
+.col-md-4{
+    width: 30%;
+}
+.description{
+    width: 40%;
+}
+.btn-primary{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 20%;
+    background-color: #0c8f8f;
+    color: #fffee4;
+}
